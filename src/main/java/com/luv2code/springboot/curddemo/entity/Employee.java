@@ -4,12 +4,12 @@ import jakarta.persistence.*;
 
 @Entity
 @Table(name ="employee")
-public class EmployeeNew {
+public class Employee {
 
-    public EmployeeNew() {
+    public Employee() {
     }
 
-    public EmployeeNew(String firstName, String lastName, String email) {
+    public Employee(String firstName, String lastName, String email) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.email = email;
