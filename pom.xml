@@ -54,7 +54,7 @@
 
     <build>
         <plugins>
-			<!--Make Execution maven-plugin for making JAR or war -->
+            <!--Make Execution maven-plugin for making JAR or war -->
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
